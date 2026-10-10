@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Experiment runtime output
+*.log
+
+# OS caches
+.DS_Store
+Thumbs.db
+
+# Temporary annotations
+*.tmp

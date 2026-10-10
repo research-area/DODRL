@@ -1,0 +1,69 @@
+# =========================
+# IDE / Editors
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# Build / Compilation
+# =========================
+build/
+*.class
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.swp
+*.pid
+*.out
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+*.DS_Store
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+*.jks
+
+# =========================
+# Scala / JVM Tools
+# =========================
+.metals/
+.bsp/
+.bloop/
+
+# =========================
+# Python (if used)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# =========================
+# Data / Experiments
+# =========================
+*.xlsx
+
+# Benchmark runtime artifacts
+*.out
+
+# Generated datasets
+data/x86_benchmark/
+
+# Per-run generated files
+**/Repeat.csv
+**/SteadyStateProbability.txt
+**/prediction_log_*

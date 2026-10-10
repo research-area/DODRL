@@ -1,0 +1,34 @@
+{
+  "agent_type": "DDQN",
+  "action": [
+    "sampling_rate_us",
+    "threshold_pct"
+  ],
+  "state_features": [
+    "rho",
+    "log10(1-rho)"
+  ],
+  "gamma": 0.0,
+  "controller_parameters": 4946,
+  "agent_metrics": {
+    "mean_regret": 0.017947039372341256,
+    "median_regret": 0.0,
+    "worst_regret": 0.11934213565395124,
+    "exact_oracle_rate": 0.6,
+    "within_5pct_oracle": 0.9,
+    "mean_delta_vs_ondemand": -0.16972868058398838,
+    "better_than_ondemand": 1.0,
+    "seed_std_mean_regret": 0.001638761686775304
+  },
+  "raw_rows": 4949,
+  "usable_runs": 4949,
+  "configuration_cells": 500,
+  "seeds": [
+    7,
+    42,
+    123
+  ],
+  "data_source": "outputs/x86_mg1_clean.csv",
+  "data_sha256": "045d2a22f801e657f0ef6180c3bf601c6dce2b7fa8ad7ddb5f79382ad5964932",
+  "python_version": "3.12.3"
+}
